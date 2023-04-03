@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "There are $num_directories directories in the PATH."
+echo $PATH | tr ':' '\n' | wc -1
